@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Lora:wght@400;500;600&family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@100;200;300;400;500&family=Pushster&family=Roboto+Condensed:wght@400;700&family=Waterfall&display=swap");
+*{
+    bottom: 0;padding: 0;box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: linear-gradient( rgba(77, 74, 74, 0.547), rgba(14, 12, 12, 0.501) ),url('https://images.pexels.com/photos/8106663/pexels-photo-8106663.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500')no-repeat center center;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.wrapper{
+    background-color: rgba(219, 204, 204, 0.644);
+    width: 95%;
+    height: 90vh;
+    border-radius: 5px;
+    padding: 2%;
+}
+h1{
+    text-align: center;
+    padding: 2%;
+}
+.hide{
+    display: none;
+}
+.row{
+    margin: 5%;
+}
+.error{
+    padding: 2%;
+    background-color: brown;
+}
+.success{
+    color: greenyellow;
+}
+.fail{
+    color: red;
+}
+.average{
+    color: orange;
+}
+.comnt{
+    text-align: center;
+    font-weight: 900;
+}
+.btn-success{
+    border: none;
+    padding: 2% 4%;
+    border-radius: 5px;
+}
+.btn-danger{
+    border: none;
+    padding: 2% 4%;
+    border-radius: 5px;
+}
+@media (max-width:480px) {
+    .col{
+        min-width: 80%;
+        margin: 2%;
+    }
+}
