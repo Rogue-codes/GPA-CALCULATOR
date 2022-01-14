@@ -17,6 +17,8 @@ body{
     height: 90vh;
     border-radius: 5px;
     padding: 2%;
+    overflow-y: auto;
+    
 }
 h1{
     text-align: center;

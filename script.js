@@ -106,11 +106,11 @@ calcCGPA.addEventListener('click', () => {
         comment.classList.add('average')
 
     }else if((sumOfproductOfUnitLoadAndGrade/unitLoad).toFixed(2) > 2.5 && (sumOfproductOfUnitLoadAndGrade/unitLoad).toFixed(2) < 4.5){
-        comment.innerText = "Woohoo you're in second class upper division"
+        comment.innerText = "You're in second class upper division"
         comment.classList.add('success')
 
     }else if((sumOfproductOfUnitLoadAndGrade/unitLoad).toFixed(2) > 4.5){
-        comment.innerText = "Odogwu Nwoke you're doing well keep up with this flying tempo you're a first class student"
+        comment.innerText = " Great job!!!! you're a first class student" 
         comment.classList.add('success')
     }
 })
@@ -129,5 +129,7 @@ clear.addEventListener('click', ()=>{
     calcCGPA.classList.add('hide')
 
     clear.classList.add ('hide')
+
+    comment.innerText = " " 
 
 })
