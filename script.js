@@ -101,7 +101,7 @@ calcCGPA.addEventListener('click', () => {
     if((sumOfproductOfUnitLoadAndGrade/unitLoad).toFixed(2) < 2.5){
         comment.innerText = 'You need to buckle up you are in Third class division '
         comment.classList.add('fail')
-    }else if((sumOfproductOfUnitLoadAndGrade/unitLoad).toFixed(2) > 2.5 && (sumOfproductOfUnitLoadAndGrade/unitLoad).toFixed(2) < 3.5){
+    }else if((sumOfproductOfUnitLoadAndGrade/unitLoad).toFixed(2) >= 2.5 && (sumOfproductOfUnitLoadAndGrade/unitLoad).toFixed(2) < 3.5){
         comment.innerText = "You are in second class lower division a bit more push and you'll be in second class upper division"
         comment.classList.add('average')
 
